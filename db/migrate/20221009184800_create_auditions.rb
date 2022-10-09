@@ -6,5 +6,6 @@ class CreateAuditions < ActiveRecord::Migration[5.2]
       t.integer :phone
       t.boolean :hired
       t.integer :role_id
+    end
   end
 end
